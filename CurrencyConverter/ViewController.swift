@@ -27,6 +27,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         inputTextField.delegate = self
     }
+    
+
 
     @IBAction func convertCurrency(_ sender: UIButton) {
         convertFromDollar()
